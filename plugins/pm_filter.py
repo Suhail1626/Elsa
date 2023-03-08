@@ -1176,7 +1176,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
+            InlineKeyboardButton(' Series Group', url= 'https://t.me/BFSeriesGroup')
         ]
     )
     btn.insert(1, 
