@@ -167,7 +167,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
+            InlineKeyboardButton(' ♀️ {search} ♀️ ', url= 'https://t.me/BFSeriesGroup')
         ]
     )
     btn.insert(1, 
